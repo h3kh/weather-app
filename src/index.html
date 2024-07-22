@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="flex-center w-screen h-screen">
+      <div
+        class="background bg-gradient-to-br from-teal-400 to-blue-500 w-96 h-96 rounded-lg"
+      >
+        <div class="search-bar flex justify-around mt-7 mx-7">
+          <input class="form-input rounded-full border-none w-64" type="text" />
+          <button class="rounded-full bg-white w-12 h-12 flex-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+              />
+            </svg>
+          </button>
+        </div>
+        <p class="error text-center text-white text-xl mt-2"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
